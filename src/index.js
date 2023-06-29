@@ -12,5 +12,5 @@ module.exports = function towelSort (matrix) {
     }
   });
 
-  return [];
+  return matrix.flat();
 }
